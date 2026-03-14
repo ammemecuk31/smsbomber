@@ -23,7 +23,7 @@ yüklendikten sonra
 cd smsbomber
 
 sonrada
-```bash
+
 python smsbomber.py
 
 bu kadardı telefon numarası yazarak yada + olarak gmail yazarak gönderebilirsiniz.
