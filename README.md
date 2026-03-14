@@ -10,16 +10,16 @@ Terminalinizi açın ve şunları yazın
 apt update & apt upgrade
 
 Termux ise
-```bash
+
 pkg update & pkg upgrade
 
 ardından git linkimizi yapıştırıyoruz
-```bash
-https://github.com/ammemecuk31/smsbomber.git
+
+git clone https://github.com/ammemecuk31/smsbomber.git
 
 
 yüklendikten sonra
-```bash
+
 cd smsbomber
 
 sonrada
