@@ -1,4 +1,29 @@
-Öncelikle merhaba ben Kıbrıslı bugün sms bomberin nasıl çalıştığını anlatıcağım aşağıdaki linki terminalinize yapıştırın:
+Öncelikle merhaba ben Kıbrıslı bugün sms bomberin nasıl çalıştığını anlatıcağım.
 
+Gerekli olan şeyler:
+Terminal
+Git
+Python
+
+Terminalinizi açın ve şunları yazın 
 ```bash
-git clone [https://github.com/kullaniciadi/proje-adi.git]([[https://github.com/kullaniciadi/proje-adi](https://github.com/ammemecuk31/smsbomber).](https://github.com/ammemecuk31/smsbomber)git)
+apt update & apt upgrade
+
+Termux ise
+```bash
+pkg update & pkg upgrade
+
+ardından git linkimizi yapıştırıyoruz
+```bash
+https://github.com/ammemecuk31/smsbomber.git
+
+
+yüklendikten sonra
+```bash
+cd smsbomber
+
+sonrada
+```bash
+python smsbomber.py
+
+bu kadardı telefon numarası yazarak yada + olarak gmail yazarak gönderebilirsiniz.
