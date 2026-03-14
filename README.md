@@ -7,7 +7,7 @@ Python
 
 Terminalinizi açın ve şunları yazın 
 ```bash
-apt update & apt upgrade
+apt update & apt upgrade```
 
 Termux ise
 
