@@ -27,3 +27,5 @@ sonrada
 ```python smsbomber.py```
 
 bu kadardı telefon numarası yazarak yada + olarak gmail yazarak gönderebilirsiniz.
+
+Alıntı: Enough-Reborn 
