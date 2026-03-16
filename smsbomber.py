@@ -1,6 +1,6 @@
 #KIBRISLI
 #enough reborn kodlarından yararlanılmıştır
-
+from colorama import Fore, Style
 from time import sleep
 from os import system
 from sms import SendSms
@@ -8,7 +8,7 @@ import threading
 
 # KIBRISLI ASCII Sanatı Başlangıcı
 print("""
-  _  _______ ____  _____  _____  _____ _      _____ 
+   _  _______ ____  _____  _____  _____ _      _____ 
  | |/ /_   _|  _ \|  __ \|_   _|/ ____| |    |_   _|
  | ' /  | | | |_) | |__) | | | | (___ | |      | |  
  |  <   | | |  _ <|  _  /  | |  \___ \| |      | |  
@@ -28,7 +28,7 @@ while 1:
     system("cls||clear")
     print("""{}
     
-    Sms: {}           {}by {}@Kıbrıslı\n  
+    Sms: {}           {}by {}@Codza\n  
     """.format(Fore.LIGHTCYAN_EX, len(servisler_sms), Style.RESET_ALL, Fore.LIGHTRED_EX))
     try:
         menu = (input(Fore.LIGHTMAGENTA_EX + " 1- SMS Gönder (Normal)\n\n 2- SMS Gönder (Turbo)\n\n 3- Çıkış\n\n" + Fore.LIGHTYELLOW_EX + " Seçim: "))
