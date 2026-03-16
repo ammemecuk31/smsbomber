@@ -7,7 +7,7 @@ from sms import SendSms
 import threading
 
 # KIBRISLI ASCII Sanatı Başlangıcı
-print("""
+print(Fore.LIGHTRED_EX + """
    _  _______ ____  _____  _____  _____ _      _____ 
  | |/ /_   _|  _ \|  __ \|_   _|/ ____| |    |_   _|
  | ' /  | | | |_) | |__) | | | | (___ | |      | |  
